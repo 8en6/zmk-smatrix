@@ -127,8 +127,8 @@
         layer_1 {
             bindings = <
 &kp ESC         &trans        &trans        &kp LG(UP)    &trans         &trans                       &kp LEFT_WIN  &kp TAB         &mmv MOVE_UP    &trans           &trans          &kp RCTRL
-&kp TAB         &trans        &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &trans                       &kp HOME      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans         &trans  &trans    &kp LG(H)  &kp END       &trans          &trans          &trans           &msc SCRL_UP    &kp RIGHT_SHIFT
+&kp TAB         &trans        &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &trans                       &mkp MB1      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans         &trans  &trans    &kp LG(H)  &mkp MB2      &trans          &trans          &trans           &msc SCRL_UP    &kp RIGHT_SHIFT
 &kp LCTRL       &kp LEFT_ALT  &kp LGUI      &trans        &trans         &trans                       &trans        &trans          &trans          &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
